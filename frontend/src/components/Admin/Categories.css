@@ -1,0 +1,61 @@
+.Categories {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 300px;
+}
+
+#inputCategory {
+  width: 250px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  padding: 3px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.categorySection {
+  margin-bottom: 30px;
+  background-color: lightgray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+#mainCatSubmitBtn {
+  padding: 4px;
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: coral;
+}
+
+#SubSubmitBtn {
+  padding: 4px;
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: dodgerblue;
+}
+
+.catHeading {
+  text-align: center;
+}
+
+.subCategorySection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 40px;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}

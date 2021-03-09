@@ -1,0 +1,18 @@
+.menuBar {
+  padding-top: 10px;
+  width: 300px;
+  height: 100vh;
+  background-color: #232b2b;
+
+  flex: 1;
+}
+
+.menuBar__items {
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #353839;
+}
+
+.menuBar__items:hover {
+  cursor: pointer;
+}

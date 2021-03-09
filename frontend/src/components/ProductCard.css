@@ -1,0 +1,27 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  max-height: 400;
+  max-width: 280px;
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  justify-content: center;
+}
+
+.productCard img {
+  max-width: 270px;
+  max-height: 200px;
+}
+
+.productCard__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.productCard__info h4:hover {
+  color: coral;
+  cursor: pointer;
+}

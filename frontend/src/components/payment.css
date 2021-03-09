@@ -1,0 +1,23 @@
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shipping__details {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

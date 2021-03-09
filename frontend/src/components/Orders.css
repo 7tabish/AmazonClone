@@ -1,0 +1,45 @@
+.orders {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  padding: 5px;
+}
+#detailHead {
+  color: coral;
+}
+.orderDetailBlock {
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 3px;
+  display: flex;
+  align-items: flex-start;
+  width: 80vw;
+  justify-content: space-around;
+  flex-direction: column;
+
+  border-bottom: 1px solid lightgrey;
+}
+.shippingDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.shippingDetails span {
+  margin-bottom: 4px;
+}
+.productPricing {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.detailAttributes {
+  color: slategray;
+}
+.orderRow2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

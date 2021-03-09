@@ -1,0 +1,21 @@
+.product__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.product__info > img {
+  width: 100%;
+  height: 250px;
+}
+
+#shopNow {
+  color: lightseagreen;
+  
+}
+#shopNow:hover {
+  cursor: pointer;
+  color: #cd9042;
+  text-decoration: underline;
+}

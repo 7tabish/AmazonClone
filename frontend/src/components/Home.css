@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  z-index: 1;
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -350px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home__amazon__services {
+  background-color: white;
+  height: 260px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.home__amazon__services > .services {
+  display: flex;
+  justify-content: space-around;
+}

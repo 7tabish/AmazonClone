@@ -1,0 +1,10 @@
+.adminHome {
+  display: flex;
+}
+
+.adminHome__right {
+  flex: 1;
+  padding: 5px;
+  background-color: white;
+  padding-left: 50px;
+}

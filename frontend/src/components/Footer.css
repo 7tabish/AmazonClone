@@ -1,0 +1,24 @@
+.footer {
+  background-color: grey;
+}
+.footer > h5 {
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkslategray;
+  color: white;
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer__list {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
